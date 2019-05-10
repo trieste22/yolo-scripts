@@ -64,7 +64,7 @@ def preprocess(filename):
     spec = (spec - spec_mean) / spec_std
 
     # Lowpass filter
-    lowpass = 500 0 #hz
+    lowpass = 5000 #hz
     highest_index = np.abs(freq - lowpass).argmin()
     spec = spec[0:highest_index, :]
     freq = freq[0:highest_index, :]
