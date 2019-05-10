@@ -1,0 +1,5 @@
+classes = 22
+train = /media/PNRE/train.txt
+valid = /media/PNRE/validate.txt
+names = /media/PNRE/pnre.names
+backup = /media/PNRE/backup
