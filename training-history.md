@@ -1,5 +1,6 @@
 # Models
-### PNRE - see (on Trieste’s local rn) /rats/predicts for fullmin, easierjunk, and short predicting on each other -- proof that shorter training file = higher precision. Note that iterations took ~30s-5 minutes
+### PNRE
+##### See (on Trieste’s local rn) /rats/predicts for fullmin, easierjunk, and short predicting on each other -- proof that shorter training file = higher precision. Note that iterations took ~30s-5 minutes
 * **“Fullmin”**
   * pnre-junky:/media/PNRE/noisy/fullmin 
   * PNRE 22 species, 8,300 1 min scapes with lots of junk noise (inc humans & bugs)
