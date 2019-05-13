@@ -43,6 +43,10 @@
     * ‘for F in easy-rats-5s_scapes/*.csv; do sed -i "s/,End/Index,End/" $F ;done’
   * 0/10 failure on gen_anchors, average ~89%, best 91.3
   * Note: they look remarkably similar to the anchors generated  for sparse-rats-5s
-  * STARTING TRAINING AT 12:10 am 2019/05/10
+  * Started training @ 12:10 am 2019/05/10
     * no iterations done by 1:52pm..
+  * Stopped training ~12pm 2019/05/13
+    * no signs of progress - only progressed through 25 iterations, learning rate still 0.00000, loss stayed about constant
+    * Need to find a bug somewhere! Decided to try some rat scapes using an old PNRE setup.
+ 
 
