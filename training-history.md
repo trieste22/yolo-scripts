@@ -53,6 +53,11 @@
    * one 5-second, single-bark rat file repeated 10,000 times (high SNR & no junk noise - same scape-gen as "easy-rats-5s")
    * anchor_gen failed - only nan outputs. Ran faster than usual. Tried ~15 times.
    * Couldn't go further.. - should look into gen_anchor and figure out what's going on that it would fail like this, and why on a more normal training it's still ~1-2/10 likely to fail..
+   
+   * tried again, using config file from easy-rats-5s (with anchors already created for that model version). Training started @ 2:17pm 2019/05/14
+   * same old training fail - loss constant, learning rate 0, long iterations. Stopped @ 9:45a, 2019/05/15
+   * next steps = sanity check the hell out of everything, then try 1 or 2 second single bark files (or 1-2 second another sound, make sure it's actually training like that and then go back and do rats again?)
+   
  * **"easy-rats-5s, squished"
    * pnre-short:/media/rats/easy-rats-5s/squished
    * easy-rats-5s files unchanged, but with YOLO resizing down to weight = 832, height = 256 (in cfg and anchor_gen)
