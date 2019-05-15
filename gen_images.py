@@ -63,9 +63,11 @@ def preprocess(filename):
     spec_std = np.std(spec)
     spec = (spec - spec_mean) / spec_std
 
-    # Keep only rat frequency band
-    spec = spec[0:100,:]
-    freq = freq[0:100] 
+    # Lowpass filter
+    lowpass = 5000 #hz
+    highest_index = np.abs(freq - lowpass).argmin()
+    spec = spec[0:highest_index, :]
+    freq = freq[0:highest_index, :]
 
     # Save spectrogram of the wav file
     scaler = MinMaxScaler(feature_range=(0, 255))

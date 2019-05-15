@@ -21,14 +21,14 @@
   * pnre-short:/media/PNRE/pnre-real
 
 ### BAMBOO RATS
-* **“Rats-15s”**
+* **“rats-15s”**
   * pnre-short:/media/rats/rats-15s
   * 10,000 15s scapes with both farinosas and no farinoras, junk added (one big csv file: rats-15s_scapes.csv)
   * Only able to get max 76% anchor accuracy (as compared to (85-90+% for PNRE models)
   * Overnight training (~12 hours?), 2019/05/06-07
   * Learning went down to 0 after a few iterations, and average loss increased by of training
   * Did not attempt any predictions
-* **“Sparse-rats-5s”**
+* **“sparse-rats-5s”**
   * pnre-short:/media/rats/sparse-rats-5s
   * 21870 5s scapes with no farinosas & less, easier junk than “rats-15s” (no bugs)
   * ~18 hrs training, 2019/05/09-10 -> didn’t get anywhere!
@@ -36,13 +36,34 @@
   * Loss started at 2068, only decreased to 2038 after a day
   * Learning rate dropped from .001 to .000000 after first iteration, then stayed there
   * Cancelled to try easier scapes - did not attempt any predictions.
-* **“Easy-rats-5s”**
+* **“easy-rats-5s”**
   * pnre-short:/media/rats/easy-rats-5s
   * 25,000 5s scapes with no farinosas, high SNR and no junk (one csv per scape)
   * Ran the following to correct for scape gen error:
     * ‘for F in easy-rats-5s_scapes/*.csv; do sed -i "s/,End/Index,End/" $F ;done’
   * 0/10 failure on gen_anchors, average ~89%, best 91.3
   * Note: they look remarkably similar to the anchors generated  for sparse-rats-5s
-  * STARTING TRAINING AT 12:10 am 2019/05/10
+  * Started training @ 12:10 am 2019/05/10
     * no iterations done by 1:52pm..
+  * Stopped training ~12pm 2019/05/13
+    * no signs of progress - only progressed through 25 iterations, learning rate still 0.00000, loss stayed about constant
+    * Need to find a bug somewhere! Decided to try some rat scapes using an old PNRE setup.
+ * **"easy-rats-5s-same"**
+   * pnre-short:/media/rats/easy-rats-5s-same
+   * one 5-second, single-bark rat file repeated 10,000 times (high SNR & no junk noise - same scape-gen as "easy-rats-5s")
+   * anchor_gen failed - only nan outputs. Ran faster than usual. Tried ~15 times.
+   * Couldn't go further.. - should look into gen_anchor and figure out what's going on that it would fail like this, and why on a more normal training it's still ~1-2/10 likely to fail..
+   
+   * tried again, using config file from easy-rats-5s (with anchors already created for that model version). Training started @ 2:17pm 2019/05/14
+   * same old training fail - loss constant, learning rate 0, long iterations. Stopped @ 9:45a, 2019/05/15
+   * next steps = sanity check the hell out of everything, then try 1 or 2 second single bark files (or 1-2 second another sound, make sure it's actually training like that and then go back and do rats again?)
+   
+ * **"easy-rats-5s, squished"
+   * pnre-short:/media/rats/easy-rats-5s/squished
+   * easy-rats-5s files unchanged, but with YOLO resizing down to weight = 832, height = 256 (in cfg and anchor_gen)
+   * Training fail, like other rat failures - learning rate 0, loss actually increasing slightly over time, slow iterations.
+ * **"easy-rats-5s, subdiv8"
+   * pnre-short:media/rats/easy-rats-5s, subdiv8
+   * easy-rats-5s files unchanged, but with subdivisions = 8 (instead of 16 that it's been consistently for other models)
+   * Training fail, like other rat failures - learning rate 0, loss increased a lot over time (after initial few iters of ~constant loss). Smaller subdivision resulted in iterations going faster as compared to other easy-rat models, but still quite slow compared to successful PNRE models' iteration times.
 

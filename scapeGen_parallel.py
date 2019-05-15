@@ -117,13 +117,13 @@ def build_scape(thisscape, outdir, scape_dur, sourcedir, bg_label, fg_label, jun
 #sourcedir is the directory where the script is run from,
 #   and where file 'singlebarkspecs.csv' and directories 'foreground' and 'background' are located
 sourcedir = "/media/PNRE/noisy/short/rats/makin-scapes"#sparse-rats-scapering"
-outdir = "easy-rats-5s_scapes"
+outdir = "easy-rats-5s-same_scapes"
 scape_dur = 5
-scapecount = 25000 # how many scapes to make
+scapecount = 1  # how many scapes to make
 bg_label = "norats-nofarinosas" # name of the subdirectory within 'background' with desired backgrounds
 fg_label = "single-barks" # name of the subdirectory within 'foreground' with desired vocalizations
 junk_label = "junk" # name of the subdirectory within 'foreground' with junk sounds to add
-basename = "easy-rats-5s" # scapes will be names {basename}_scape{index}.wav (with corresponding .csv and .jams)
+basename = "easy-rats-5s-same" # scapes will be names {basename}_scape{index}.wav (with corresponding .csv and .jams)
 max_calls_per_file = 3 # insert between one and three rat barks into each scape
 
 if not os.path.exists(f'{sourcedir}/{outdir}'):
