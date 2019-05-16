@@ -7,7 +7,8 @@ import sys
 import matplotlib.pyplot as plt
 
 # Plot all labeled boxes specified in a single labelfile in copy of the original jpgimg created in output_dir
-def plotBoxes(jpgimg, labelfile, output_dir):
+def plotBoxes(jpgimg, labelfile, output_dir, count):
+    #print(f"{jpgimg}, {labelfile}, to {output_dir}")
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -32,38 +33,49 @@ def plotBoxes(jpgimg, labelfile, output_dir):
     # print(label)
     # print(label['x_center'].iloc[0])
 
-    x_center_percent = float(label['x_center'].iloc[0])
-    y_center_percent = 1 - float(label['y_center'].iloc[0])
-    width_percent = float(label['width'].iloc[0])
-    height_percent = float(label['height'].iloc[0])
+    x_center_percents = label['x_center'].values
+    y_center_percents = 1 - label['y_center'].values
+    width_percents = label['width'].values
+    height_percents = label['height'].values
+    
+    for i in range(len(x_center_percents)):
+#         label_box_percents = [float(label['x_center'].iloc[i]), float(label['y_center'].iloc[i]), float(label['width'].iloc[i]), float(label['height'].iloc[i])]
+        # print(label_box_percents)
 
-    label_box_percents = [float(label['x_center'].iloc[0]), float(label['y_center'].iloc[0]), float(label['width'].iloc[0]), float(label['height'].iloc[0])]
-    # print(label_box_percents)
+        y_topleft = (y_center_percents[i] - height_percents[i]/2)*imy
+        x_topleft = (x_center_percents[i] - width_percents[i]/2)*imx
+        
+        #print(f"(xtopleft, ytopleft) = ({x_topleft}, {y_topleft})")
 
-    y_topleft = (y_center_percent - height_percent/2)*imy
-    x_topleft = (x_center_percent - width_percent/2)*imx
+        # print(f"x_topleft = {x_topleft}, y_topleft = {y_topleft}")
 
-    # print(f"x_topleft = {x_topleft}, y_topleft = {y_topleft}")
+        # Create a Rectangle patch - practice
+        #box = [234, 280, 349, 411] #xlo, xhi, ylo, yhi (in px, from top left)
+        # rect = patches.Rectangle((box[0],box[2],),(box[1]-box[0]),(box[3]-box[2]),linewidth=1,edgecolor='r',facecolor='none')
+        # Rectangle((x,y) = top left, width, height, angle=0.0 = rotation, **kwargs)
 
-    # Create a Rectangle patch - practice
-    #box = [234, 280, 349, 411] #xlo, xhi, ylo, yhi (in px, from top left)
-    # rect = patches.Rectangle((box[0],box[2],),(box[1]-box[0]),(box[3]-box[2]),linewidth=1,edgecolor='r',facecolor='none')
-    # Rectangle((x,y) = top left, width, height, angle=0.0 = rotation, **kwargs)
+        label_rect = patches.Rectangle((x_topleft, y_topleft), width_percents[i]*imx, height_percents[i]*imy, linewidth = .5, edgecolor='r', facecolor='none')
+        # ax.add_patch(rect)
 
-    label_rect = patches.Rectangle((x_topleft, y_topleft), width_percent*imx, height_percent*imy, linewidth = .5, edgecolor='r', facecolor='none')
-    # ax.add_patch(rect)
+        # Add the patch to the Axes
+        ax.add_patch(label_rect)
 
-    # Add the patch to the Axes
-    ax.add_patch(label_rect)
 
 #    plt.show()
     fig.savefig(f"{output_dir}/{name}_boxed.jpg", dpi=450)
+    if(count > 19):
+        plt.close('all')
+        count = 0
+        print("closing figs!\n")
+    return (count + 1)
+
 
 
 # Visualize all labels for contents of src_dir
 #   For every .jpg image in src_dir that has a corresponding .txt label file,
 #   Create a copy of that jpg with boxed labels added, and save it in output_dir
 def box_directory_contents(src_dir, output_dir):
+    count = 0
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         
@@ -71,15 +83,16 @@ def box_directory_contents(src_dir, output_dir):
     
     for file in files:
         head, filename = os.path.split(file)
+#        print(file)
+        
         parts= os.path.splitext(file)
         name = parts[0]
         ext = parts[1]
 #         print(name, ext)
         if not name.startswith(".") and (ext == ".jpg"):
-            labelfile = f"{src_dir}/{head}/{name}.txt"
+            labelfile = f"{src_dir}/{name}.txt"
             if os.path.isfile(labelfile):
-                print(name)
-                plotBoxes(f"{src_dir}/{file}", labelfile, output_dir)            
+                count = plotBoxes(f"{src_dir}/{file}", labelfile, output_dir, count)            
 
                 
 #box_directory_contents("sampleData", "boxed")
@@ -93,4 +106,6 @@ if len(sys.argv) == 3: # input directory
     
 if len(sys.argv) == 4: # input single file
     print("input file\n")
-    plotBoxes(sys.argv[1], sys.argv[2], sys.argv[3])
+    plotBoxes(sys.argv[1], sys.argv[2], sys.argv[3], 0)
+    
+plt.close('all')
