@@ -67,3 +67,13 @@
    * easy-rats-5s files unchanged, but with subdivisions = 8 (instead of 16 that it's been consistently for other models)
    * Training fail, like other rat failures - learning rate 0, loss increased a lot over time (after initial few iters of ~constant loss). Smaller subdivision resulted in iterations going faster as compared to other easy-rat models, but still quite slow compared to successful PNRE models' iteration times.
 
+
+### HYBRID
+* **pnrePlusRats**
+  * pnre-darknet:/media/PNRE/noisy/easierjunk (moved the original easierjunk to easierjunk/just_PNRE
+  * hybrid of easierjunk and easy-rats-5s - all scape.jpg and labels.txt combined into shared JPEGImgages and label folders (bamboo-rat is now Class 23). .cfg and .data updated for one more class.
+  * Had to use ls, sed, and vim's search-and-replace to create a .csv file that looks like "all_files.csv" that is usually created by image_gen. TODO: separate gen_trainTest from this csv file somehow?
+  * started training using the last weights from easierjunk @ ~5:30pm 2019/05/16. Fingers crossed, y'all.
+    * I have some concern that the files are not the same length as each other. They're getting squished to the same size though so maybe it'll be ok. TODO tomorrow: repeat this training setup using the 5s EATO files - The EATO scapes are on the Darknet VM: Darknet:/home/bmooreii/towhee (see below note on what I've already tried but we might want to try again under better circumstances)
+    
+ * NOTE 2019/05/16 end of day: I tried training on both the easy-same and easy rat files starting with the towhee weights but the training just announced that it was Done! with loading the weights (a good sign) and then immediately exiting out (bad). Just in case the weights would be sufficient for the rats even without training for any iterations, I attempted a detection on a few rat files, but got no predictions even at a 10% confidence threshold. The pnre-short machine has been having some difficulties today: read, CUDnn got uninstalled somehow maybe? and nvidia drivers seem to be gone. Might be worth trying these EATO easier things on another machine before working too hard at other solutions. Hopefully the 23-class pnrePlusRats will save the day and all these other things I tried will have been uneccesary.
