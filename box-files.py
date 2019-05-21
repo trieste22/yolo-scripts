@@ -74,7 +74,7 @@ def plotBoxes(jpgimg, labelfile, output_dir, count):
 # Visualize all labels for contents of src_dir
 #   For every .jpg image in src_dir that has a corresponding .txt label file,
 #   Create a copy of that jpg with boxed labels added, and save it in output_dir
-def box_directory_contents(src_dir, output_dir):
+def box_directory_contents(src_dir, output_dir, label_dir):
     count = 0
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -90,21 +90,21 @@ def box_directory_contents(src_dir, output_dir):
         ext = parts[1]
 #         print(name, ext)
         if not name.startswith(".") and (ext == ".jpg"):
-            labelfile = f"{src_dir}/{name}.txt"
+            labelfile = f"{label_dir}/{name}.txt"
             if os.path.isfile(labelfile):
                 count = plotBoxes(f"{src_dir}/{file}", labelfile, output_dir, count)            
 
                 
 #box_directory_contents("sampleData", "boxed")
 
-# python box-files.py jpgname labelname output_dir
-# python box-files.py src_dir output_dir
 
-if len(sys.argv) == 3: # input directory
+# input directory: python box-files.py jpgname labelname output_dir
+if len(sys.argv) == 4:
     print("input directory\n")
-    box_directory_contents(sys.argv[1], sys.argv[2])
+    box_directory_contents(sys.argv[1], sys.argv[2], sys.argv[3])
     
-if len(sys.argv) == 4: # input single file
+# input single file: python box-files.py src_dir output_dir    
+if len(sys.argv) == 5:
     print("input file\n")
     plotBoxes(sys.argv[1], sys.argv[2], sys.argv[3], 0)
     
