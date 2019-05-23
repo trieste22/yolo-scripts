@@ -78,5 +78,11 @@
      * NOTE 2019/05/16 end of day: I tried training on both the easy-same and easy rat files starting with the towhee weights but the training just announced that it was Done! with loading the weights (a good sign) and then immediately exiting out (bad). Just in case the weights would be sufficient for the rats even without training for any iterations, I attempted a detection on a few rat files, but got no predictions even at a 10% confidence threshold. The pnre-short machine has been having some difficulties today: read, CUDnn got uninstalled somehow maybe? and nvidia drivers seem to be gone. Might be worth trying these EATO easier things on another machine before working too hard at other solutions. Hopefully the 23-class pnrePlusRats will save the day and all these other things I tried will have been uneccesary.
    * stopped training at 5pm, 2019/05/21 after looking at loss and seeing fluctuation between 8-10 but no lower for a few days. Running detection this morning - YOLO was able to box PNRE species apparently about as well as for the original easierjunk model but unable to box rats when detection run on a just rats file. TODO: try detections again now that training is actually done.
    
+* **rats_EATO_WOTH**
+ * pnre-darknet:/media/rats/rats_EATO_WOTH
+ * 25000 5-second scapes. 3 classes: rats (1-2/scape), EATO (0-1/scape), WOTH (0-2/scape). Scapes generated with new gen_scapes-labels.py.
+ * The scapes look overcrowded. Going to generate another dataset with fewer posible calls. Training anyway.
+ * anchor_gen would not work - using the defaults.. Concerned that new way of making labels could be the cause.
+ * started training at 11am 2019/05/23
     
 
