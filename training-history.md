@@ -80,7 +80,8 @@
    
 * **rats_EATO_WOTH**
  * pnre-darknet:/media/rats/rats_EATO_WOTH
- * 25000 5-second scapes. 3 classes: rats (1-2/scape), EATO (0-1/scape), WOTH (0-2/scape). Scapes generated with new gen_scapes-labels.py.
+ * 25000 5-second scapes. 3 classes: bamboo-rat, EATO, WOTH. Scapes generated with new gen_scapes-labels.py:
+  * sounds_toUse = [("rats-fewer-singlebarks", 1, 2, "bamboo-rat"), ("EATO", 0, 1, "EATO"), ("WOTH", 0, 2, "WOTH")]
  * The scapes look overcrowded. Going to generate another dataset with fewer posible calls. Training anyway.
  * anchor_gen would not work - using the defaults.. Concerned that new way of making labels could be the cause.
  * started training at 11am 2019/05/23
