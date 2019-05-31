@@ -17,7 +17,7 @@ from concurrent.futures import as_completed
 
 
 
-def gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, background_label, scape_dur, foreground_dir):
+def gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, background_label, scape_dur):
     for i in range(len(sounds_toUse)):
         # read csv of each sound_toUse:
         sounds_list[i] = pd.read_csv(f"{source_dir}/audio/foreground_csvs/{sounds_toUse[i][0]}.csv", header=None)
@@ -31,7 +31,7 @@ def gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, backgrou
         scape_name = f"{base_name}_scape{scape}"
         print(f"scape{scape}:")
         label = ""
-        row = f"{source_dir}/{base_name}/JPEGImages/{scape_name}.jpg,\"["
+        row = f"{out_dir}/{base_name}/JPEGImages/{scape_name}.jpg,\"["
 
         # set up scaper
         sc = scaper.Scaper(scape_dur, f"{source_dir}/audio/foreground", f"{source_dir}/audio/background")
@@ -86,7 +86,7 @@ def gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, backgrou
                     label = f"{label}\n{YOLO_class} {xCenter_percent} {yCenter_percent} {width_percent} {height_percent}"
 
                 sc.add_event(label=("const", sounds_toUse[i][0]),
-                        source_file = ("const", f"{foreground_dir}/{foreground_label}/{src}"),
+                        source_file = ("const", f"{source_dir}/audio/foreground/{foreground_label}/{src}"),
                         source_time = ("const", 0),
                         event_time = ("const",t),
                         event_duration = ("const", dur), # might get warnings
@@ -126,15 +126,15 @@ def gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, backgrou
 #### SETUP ####
 
 base_name = "rats_EATO_WOTH" # the name prefixing every scape. Should match output folder name - UPDATE 
-scape_count = 5 # UPDATE
+scape_count = 25000 # UPDATE
 scape_dur = 5 # UPDATE
 
 # UPDATE: update source_dir, confirm directory structure inside source_dir matches expected (audio/foreground, audio/background, audio/foreground_csvs)
 #       note: there should be a matching .csv file in audio/foreground_csvs for each foreground folder, containing clip length & freq information to build boxes from
 #       TODO: store/read background file length information instead of assuming 1-minute files
 
-source_dir = "/Users/kitzeslab/Desktop/yolo-scripts/scape-gen"
-out_dir = f"{source_dir}/{base_name}"
+source_dir = "/media/yolo-scripts/scape-gen"
+out_dir = f"/media/rats/{base_name}"
 background_dir = f"{source_dir}/audio/background"
 background_label = "norats-nofarinosas"
 foreground_dir = f"{source_dir}/audio/foreground"
@@ -158,5 +158,5 @@ sounds_list = [None]*len(sounds_toUse)
 
 #### RUNNING ####
 
-gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, background_label, scape_dur, foreground_dir)
+gen_scapes_labels(sounds_toUse, source_dir, scape_count, base_name, background_label, scape_dur)
 np.savetxt(f"{out_dir}/all_files.csv", all_files, fmt='%s')
