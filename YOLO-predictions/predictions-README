@@ -1,0 +1,1 @@
+This folder contains some results of models (as described in training-history.md) asked to predict on scapes created to train other models. For example, ej-predicts-fullmin/ contains results where the 'easyjunk' model was asked to predict a file scapered to train the 'fullmin' model.
