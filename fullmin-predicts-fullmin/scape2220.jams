@@ -1,0 +1,4671 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 60.0,
+          "value": {
+            "label": "dirty",
+            "source_file": "/Volumes/MSD-0016/background/dirty/rain_litebirds.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 60,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 1.891,
+          "duration": 2.284694,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SOSP.wav",
+            "source_time": 0,
+            "event_time": 1.891,
+            "event_duration": 2.284694,
+            "snr": 2.968780687052263,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0520565489797047,
+          "duration": 9.958359625601592,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 2.0520565489797047,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.1471503568061775,
+            "time_stretch": 2.0361620662682802
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.781,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 4.781,
+            "event_duration": 1.512,
+            "snr": 17.79704072740345,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.811,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 5.811,
+            "event_duration": 2.548,
+            "snr": 1.3656498160593706,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.849145645504952,
+          "duration": 9.869091306777559,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 5.849145645504952,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.1980802571566404,
+            "time_stretch": 2.017909585805359
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 7.793100980104949,
+          "duration": 0.1341668415785869,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 7.793100980104949,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.47034176462844823,
+            "time_stretch": 2.106659782665017
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 8.292162365179287,
+          "duration": 0.6520321972579863,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 8.292162365179287,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.11841550759374014,
+            "time_stretch": 0.6886832300795922
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.215371460138748,
+          "duration": 1.2474083809167862,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 9.215371460138748,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.6211407389590498,
+            "time_stretch": 1.3175257857062892
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.90109017254452,
+          "duration": 2.492523551967606,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 9.90109017254452,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.1294474603679322,
+            "time_stretch": 2.632629459154341
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 10.292,
+          "duration": 0.530771,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/TUTI.wav",
+            "source_time": 0,
+            "event_time": 10.292,
+            "event_duration": 0.530771,
+            "snr": -14.430080741660372,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 10.771,
+          "duration": 0.629569,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/ACFL.wav",
+            "source_time": 0,
+            "event_time": 10.771,
+            "event_duration": 0.629569,
+            "snr": -2.6999949856745715,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 11.130592493723443,
+          "duration": 2.1837657159063055,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/human.wav",
+            "source_time": 0,
+            "event_time": 11.130592493723443,
+            "event_duration": 1.0315,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.14525922384685974,
+            "time_stretch": 2.117077766268837
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 11.437,
+          "duration": 1.79,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SCTA.wav",
+            "source_time": 0,
+            "event_time": 11.437,
+            "event_duration": 1.79,
+            "snr": 17.41496735921902,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 11.600110261776113,
+          "duration": 0.04455533736597791,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 11.600110261776113,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8663532693030018,
+            "time_stretch": 0.699598620848492
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 11.763,
+          "duration": 1.565714,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav",
+            "source_time": 0,
+            "event_time": 11.763,
+            "event_duration": 1.565714,
+            "snr": 18.03131784192744,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 12.154230355042937,
+          "duration": 14.212804886065769,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 12.154230355042937,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.3737381370632644,
+            "time_stretch": 2.9060583522089187
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 12.92559383697648,
+          "duration": 0.02960482309053762,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 12.92559383697648,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.06315565085813829,
+            "time_stretch": 0.4648487617651581
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 13.941,
+          "duration": 0.61288,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/AMCR.wav",
+            "source_time": 0,
+            "event_time": 13.941,
+            "event_duration": 0.61288,
+            "snr": -5.606537230133613,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 14.21755757504937,
+          "duration": 1.4976077413628144,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 14.21755757504937,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.4139334368509451,
+            "time_stretch": 0.6708023075564371
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 16.3869132382072,
+          "duration": 10.752086420619229,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugchirps.wav",
+            "source_time": 0,
+            "event_time": 16.3869132382072,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.5785244400828238,
+            "time_stretch": 1.7920144034365382
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 16.851,
+          "duration": 1.565714,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav",
+            "source_time": 0,
+            "event_time": 16.851,
+            "event_duration": 1.565714,
+            "snr": 9.668005738784117,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 18.277347801070707,
+          "duration": 0.8602677810825018,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/human.wav",
+            "source_time": 0,
+            "event_time": 18.277347801070707,
+            "event_duration": 1.0315,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8410109184656966,
+            "time_stretch": 0.8339968793819696
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 21.438,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 21.438,
+            "event_duration": 1.464,
+            "snr": 2.5538777005156597,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 21.466,
+          "duration": 0.423,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/REVI.wav",
+            "source_time": 0,
+            "event_time": 21.466,
+            "event_duration": 0.423,
+            "snr": -9.663755802275816,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 21.757991242385476,
+          "duration": 0.08959922807752525,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 21.757991242385476,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.7025561966644901,
+            "time_stretch": 2.6160358562781094
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 21.852375346078965,
+          "duration": 1.085585180727388,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 21.852375346078965,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.5055405045679584,
+            "time_stretch": 0.4862508547253728
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 21.975128393254394,
+          "duration": 4.564436885801471,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 21.975128393254394,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8632085094911883,
+            "time_stretch": 2.0444838198453037
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 22.056116085232333,
+          "duration": 5.121703827902042,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane2.wav",
+            "source_time": 0,
+            "event_time": 22.056116085232333,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.007516765959569738,
+            "time_stretch": 0.8536173046503404
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 22.060955111236662,
+          "duration": 0.06719223285775784,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 22.060955111236662,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.6311906080806082,
+            "time_stretch": 1.0550384357523175
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 22.506967368533818,
+          "duration": 3.6927495302394466,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 22.506967368533818,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.21877596201464083,
+            "time_stretch": 0.7550476982547558
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 23.160187160968334,
+          "duration": 8.889502563883497,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 23.160187160968334,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.31214499011181285,
+            "time_stretch": 1.8176154094736996
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 23.353,
+          "duration": 1.065782,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/NOCA.wav",
+            "source_time": 0,
+            "event_time": 23.353,
+            "event_duration": 1.065782,
+            "snr": 9.7379868007815,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 23.375725859477626,
+          "duration": 15.437022824348624,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugchirps.wav",
+            "source_time": 0,
+            "event_time": 23.375725859477626,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.9348922231516037,
+            "time_stretch": 2.572837137391437
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 23.731,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 23.731,
+            "event_duration": 1.512,
+            "snr": -10.677343389548772,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 24.238510993394197,
+          "duration": 11.504358399123971,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane2.wav",
+            "source_time": 0,
+            "event_time": 24.238510993394197,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 1.011978385695989,
+            "time_stretch": 1.9173930665206618
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 24.63770550768687,
+          "duration": 1.8104135970672295,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 24.63770550768687,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.873573109703936,
+            "time_stretch": 1.912177786697483
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 26.387516691676826,
+          "duration": 10.367950971060555,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav",
+            "source_time": 0,
+            "event_time": 26.387516691676826,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.6554642630794523,
+            "time_stretch": 1.7279918285100924
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 27.924,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 27.924,
+            "event_duration": 1.512,
+            "snr": 15.755254982953936,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 29.021233032077745,
+          "duration": 3.1942604906658523,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav",
+            "source_time": 0,
+            "event_time": 29.021233032077745,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8418967898731817,
+            "time_stretch": 0.5323767484443087
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 29.07049394469113,
+          "duration": 9.763239047782912,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 29.07049394469113,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.03491992151868861,
+            "time_stretch": 1.9962662266079665
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 29.793380237006996,
+          "duration": 0.9917842627035761,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 29.793380237006996,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.01714579975059899,
+            "time_stretch": 0.4442359328446762
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 30.125,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 30.125,
+            "event_duration": 1.464,
+            "snr": -13.065625791487744,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 30.313765975272418,
+          "duration": 3.704441400229815,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 30.313765975272418,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.9949178357012699,
+            "time_stretch": 1.6592781746844276
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 30.935,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 30.935,
+            "event_duration": 2.548,
+            "snr": -5.122976512788481,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 31.78619357635684,
+          "duration": 0.16257426952301426,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 31.78619357635684,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.0924779065833978,
+            "time_stretch": 2.552707295413731
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 32.53476444251375,
+          "duration": 3.1853476061327997,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 32.53476444251375,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.3033193747976128,
+            "time_stretch": 1.4267678147943033
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 32.65463723217211,
+          "duration": 0.08418140293866525,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 32.65463723217211,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.4562256910294692,
+            "time_stretch": 2.4578511806909558
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 32.7256264059728,
+          "duration": 0.038323722132225735,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 32.7256264059728,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.41414435877665945,
+            "time_stretch": 1.1189407921817731
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 34.083,
+          "duration": 3.076,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/GRCA.wav",
+            "source_time": 0,
+            "event_time": 34.083,
+            "event_duration": 3.076,
+            "snr": 18.49851116826307,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 35.34232301115254,
+          "duration": 1.2308902883300543,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/human.wav",
+            "source_time": 0,
+            "event_time": 35.34232301115254,
+            "event_duration": 1.0315,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8783553149964078,
+            "time_stretch": 1.1933012974600623
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 35.927,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 35.927,
+            "event_duration": 2.548,
+            "snr": 6.697896373419486,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 35.99049667916421,
+          "duration": 0.07631724892605815,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 35.99049667916421,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.5730036987022158,
+            "time_stretch": 2.228240844556442
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 36.864,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 36.864,
+            "event_duration": 2.548,
+            "snr": -1.1128259102772162,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 37.90916295905494,
+          "duration": 7.197293486809565,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 37.90916295905494,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.49267608725163026,
+            "time_stretch": 1.471613451272211
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 38.122,
+          "duration": 0.931973,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RWBL.wav",
+            "source_time": 0,
+            "event_time": 38.122,
+            "event_duration": 0.931973,
+            "snr": 2.820954192960624,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 38.567435932465365,
+          "duration": 0.43869084509828576,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 38.567435932465365,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.3049775658526706,
+            "time_stretch": 0.46334986137056594
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 39.229,
+          "duration": 0.93195,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BHCO.wav",
+            "source_time": 0,
+            "event_time": 39.229,
+            "event_duration": 0.93195,
+            "snr": -13.938876301759954,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 39.5234362077222,
+          "duration": 3.669521715544109,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugyell.wav",
+            "source_time": 0,
+            "event_time": 39.5234362077222,
+            "event_duration": 4.89075,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8442387495438746,
+            "time_stretch": 0.750298362325637
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 40.27889262881482,
+          "duration": 7.471385068496086,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugchirps.wav",
+            "source_time": 0,
+            "event_time": 40.27889262881482,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.4836052899349401,
+            "time_stretch": 1.2452308447493476
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 40.99311139342524,
+          "duration": 2.634836590626367,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 40.99311139342524,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.35013373025979355,
+            "time_stretch": 1.1801851821478493
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 41.039,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 41.039,
+            "event_duration": 1.464,
+            "snr": 11.959621355282714,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 41.278689145726545,
+          "duration": 12.915507489539658,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane.wav",
+            "source_time": 0,
+            "event_time": 41.278689145726545,
+            "event_duration": 5.976969,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.3385324131550953,
+            "time_stretch": 2.1608791160770044
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 42.139844127772726,
+          "duration": 11.92872329138978,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane.wav",
+            "source_time": 0,
+            "event_time": 42.139844127772726,
+            "event_duration": 5.976969,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.7150519489847038,
+            "time_stretch": 1.9957813552972719
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 42.292671088701894,
+          "duration": 10.655651720842952,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav",
+            "source_time": 0,
+            "event_time": 42.292671088701894,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.7388052607770824,
+            "time_stretch": 1.7759419534738254
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 42.413604054198295,
+          "duration": 1.7361628507267248,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane2.wav",
+            "source_time": 0,
+            "event_time": 42.413604054198295,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8208208553912123,
+            "time_stretch": 0.2893604751211208
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 44.04741502459197,
+          "duration": 0.935717103482799,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 44.04741502459197,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.3873190758005133,
+            "time_stretch": 0.9883141967179305
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 44.834495911781275,
+          "duration": 15.165504088218725,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane2.wav",
+            "source_time": 0,
+            "event_time": 44.834495911781275,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.04435529732729848,
+            "time_stretch": 2.527584014703121
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 45.03371285323898,
+          "duration": 14.966287146761019,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane2.wav",
+            "source_time": 0,
+            "event_time": 45.03371285323898,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.48379698753658223,
+            "time_stretch": 2.4943811911268363
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 45.042,
+          "duration": 0.391,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RBWO.wav",
+            "source_time": 0,
+            "event_time": 45.042,
+            "event_duration": 0.391,
+            "snr": -14.506910111720025,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 45.117,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 45.117,
+            "event_duration": 1.464,
+            "snr": 7.531869801171002,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 46.103,
+          "duration": 2.435873,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SWSP.wav",
+            "source_time": 0,
+            "event_time": 46.103,
+            "event_duration": 2.435873,
+            "snr": -8.576555507624127,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 46.792,
+          "duration": 1.438,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BTNW.wav",
+            "source_time": 0,
+            "event_time": 46.792,
+            "event_duration": 1.438,
+            "snr": -8.066917615657955,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 46.999317207583225,
+          "duration": 3.837813283329513,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/plane.wav",
+            "source_time": 0,
+            "event_time": 46.999317207583225,
+            "event_duration": 5.976969,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.18304881650015425,
+            "time_stretch": 0.6421002490274774
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 47.785,
+          "duration": 1.605,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BAWW.wav",
+            "source_time": 0,
+            "event_time": 47.785,
+            "event_duration": 1.605,
+            "snr": 13.435618735972898,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 48.6419772406475,
+          "duration": 11.358022759352503,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/bugchirps.wav",
+            "source_time": 0,
+            "event_time": 48.6419772406475,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.850941363195689,
+            "time_stretch": 1.8930037932254171
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 49.04194047491556,
+          "duration": 4.131649137495805,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 49.04194047491556,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.006010637379479433,
+            "time_stretch": 1.8506313094533569
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 49.086,
+          "duration": 0.931973,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RWBL.wav",
+            "source_time": 0,
+            "event_time": 49.086,
+            "event_duration": 0.931973,
+            "snr": -13.33423126935582,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 50.069482168529284,
+          "duration": 0.05869859445066206,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 50.069482168529284,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.7728971847583663,
+            "time_stretch": 1.713827575201812
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 50.185561713839334,
+          "duration": 1.4536453631661643,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/pops1.wav",
+            "source_time": 0,
+            "event_time": 50.185561713839334,
+            "event_duration": 0.946781,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": 0.2491377515755212,
+            "time_stretch": 1.5353554445707764
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 50.274881766263775,
+          "duration": 0.01981257271018283,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 50.274881766263775,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.1439204066936575,
+            "time_stretch": 0.31109288724830547
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 51.98139693857094,
+          "duration": 1.878942480815168,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/human.wav",
+            "source_time": 0,
+            "event_time": 51.98139693857094,
+            "event_duration": 1.0315,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.3427801270945023,
+            "time_stretch": 1.8215632387931826
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 52.836,
+          "duration": 1.613,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BWWA.wav",
+            "source_time": 0,
+            "event_time": 52.836,
+            "event_duration": 1.613,
+            "snr": -8.983167452300908,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 53.01717069564966,
+          "duration": 0.04858072118966653,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 53.01717069564966,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.9132950401367249,
+            "time_stretch": 0.7628043586550872
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 55.06912727675655,
+          "duration": 0.0184807808090477,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/tap2.wav",
+            "source_time": 0,
+            "event_time": 55.06912727675655,
+            "event_duration": 0.03425,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.4300143935794535,
+            "time_stretch": 0.5395848411400788
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 56.74,
+          "duration": 1.002,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/HOWA.wav",
+            "source_time": 0,
+            "event_time": 56.74,
+            "event_duration": 1.002,
+            "snr": 19.240656801592408,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 57.110847831082104,
+          "duration": 1.3603748791426953,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/human.wav",
+            "source_time": 0,
+            "event_time": 57.110847831082104,
+            "event_duration": 1.0315,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.390331996046274,
+            "time_stretch": 1.3188316811853564
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 57.40470272004065,
+          "duration": 1.064351022447176,
+          "value": {
+            "label": "junk",
+            "source_file": "/Volumes/MSD-0016/foreground/junk/wind.wav",
+            "source_time": 0,
+            "event_time": 57.40470272004065,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.8823804023832587,
+            "time_stretch": 0.47673973777533424
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 58.434286,
+          "duration": 1.565714,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav",
+            "source_time": 0,
+            "event_time": 58.434286,
+            "event_duration": 1.565714,
+            "snr": -11.928808852663133,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 60,
+          "fg_path": "/Volumes/MSD-0016/foreground",
+          "bg_path": "/Volumes/MSD-0016/background",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                21.438
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                30.125
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                41.039
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                45.117
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                5.811
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                30.935
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                35.927
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                36.864
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/NOCA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                23.353
+              ],
+              [
+                "const",
+                1.066
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/AMCR.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                13.941
+              ],
+              [
+                "const",
+                0.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                4.781
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                23.731
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                27.924
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BTNW.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                46.792
+              ],
+              [
+                "const",
+                1.438
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                11.763
+              ],
+              [
+                "const",
+                1.566
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                16.851
+              ],
+              [
+                "const",
+                1.566
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BCCH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                58.581
+              ],
+              [
+                "const",
+                1.566
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/REVI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                21.466
+              ],
+              [
+                "const",
+                0.423
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/TUTI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.292
+              ],
+              [
+                "const",
+                0.531
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RBWO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                45.042
+              ],
+              [
+                "const",
+                0.391
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RWBL.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                38.122
+              ],
+              [
+                "const",
+                0.932
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/RWBL.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                49.086
+              ],
+              [
+                "const",
+                0.932
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/HOWA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                56.74
+              ],
+              [
+                "const",
+                1.002
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SCTA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                11.437
+              ],
+              [
+                "const",
+                1.79
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BWWA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                52.836
+              ],
+              [
+                "const",
+                1.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SOSP.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                1.891
+              ],
+              [
+                "const",
+                2.285
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/SWSP.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                46.103
+              ],
+              [
+                "const",
+                2.436
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BHCO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                39.229
+              ],
+              [
+                "const",
+                0.932
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/ACFL.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.771
+              ],
+              [
+                "const",
+                0.63
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/GRCA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                34.083
+              ],
+              [
+                "const",
+                3.076
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/PNRE_birdcalls/BAWW.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                47.785
+              ],
+              [
+                "const",
+                1.605
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugchirps.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/human.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/human.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugchirps.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugchirps.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/human.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/human.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/pops1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/plane2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugyell.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/rain_fadein.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/human.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/bugchirps.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "junk"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/foreground/junk/tap2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "const",
+                "dirty"
+              ],
+              [
+                "const",
+                "/Volumes/MSD-0016/background/dirty/rain_litebirds.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                60
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "PNRE_birdcalls",
+            "junk"
+          ],
+          "bg_labels": [
+            "clean",
+            "dirty",
+            "nope"
+          ],
+          "protected_labels": [],
+          "ref_db": -30,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 88,
+          "polyphony_max": 10,
+          "polyphony_gini": 0.7105590688678092,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": 0,
+          "scaper_version": "1.0.0"
+        }
+      },
+      "time": 0,
+      "duration": 60
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 60,
+    "identifiers": {},
+    "jams_version": "0.3.2"
+  },
+  "sandbox": {}
+}

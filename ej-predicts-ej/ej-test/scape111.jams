@@ -1,0 +1,2117 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 59.999812,
+          "value": {
+            "label": "noisy_clean",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/background/noisy_clean/windy_60.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 59.999812,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 1.632,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 1.632,
+            "event_duration": 2.548,
+            "snr": 19.77947175303362,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.582,
+          "duration": 0.61288,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav",
+            "source_time": 0,
+            "event_time": 2.582,
+            "event_duration": 0.61288,
+            "snr": -13.749083757775372,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.311,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 3.311,
+            "event_duration": 1.512,
+            "snr": 11.331391256634468,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.743,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 3.743,
+            "event_duration": 1.464,
+            "snr": 19.883748676026187,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.169,
+          "duration": 1.065782,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/NOCA.wav",
+            "source_time": 0,
+            "event_time": 4.169,
+            "event_duration": 1.065782,
+            "snr": -4.663488456438662,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.179,
+          "duration": 0.86,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMRO.wav",
+            "source_time": 0,
+            "event_time": 4.179,
+            "event_duration": 0.86,
+            "snr": -12.286891987298254,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 8.058222275830028,
+          "duration": 0.7699198139959821,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav",
+            "source_time": 0,
+            "event_time": 8.058222275830028,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.35344671331701494,
+            "time_stretch": 0.34485932036645883
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.265757053068848,
+          "duration": 0.14655339797559408,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 9.265757053068848,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.0182004268673461,
+            "time_stretch": 2.3011509095356053
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.544242472315252,
+          "duration": 11.71333069984244,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/rain_fadein.wav",
+            "source_time": 0,
+            "event_time": 9.544242472315252,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.7151598533457716,
+            "time_stretch": 1.9522217833070732
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 11.741,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 11.741,
+            "event_duration": 1.512,
+            "snr": 4.474613125969441,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 12.423,
+          "duration": 1.002,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/HOWA.wav",
+            "source_time": 0,
+            "event_time": 12.423,
+            "event_duration": 1.002,
+            "snr": 17.2554764946101,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 18.15,
+          "duration": 0.61288,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav",
+            "source_time": 0,
+            "event_time": 18.15,
+            "event_duration": 0.61288,
+            "snr": 6.7549056242431185,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 19.28,
+          "duration": 0.86,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMRO.wav",
+            "source_time": 0,
+            "event_time": 19.28,
+            "event_duration": 0.86,
+            "snr": 17.419463471051507,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 20.19475949555553,
+          "duration": 6.253568394822542,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind2.wav",
+            "source_time": 0,
+            "event_time": 20.19475949555553,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.107107958946664,
+            "time_stretch": 2.801072666659444
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 20.226,
+          "duration": 1.072721,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/COYE.wav",
+            "source_time": 0,
+            "event_time": 20.226,
+            "event_duration": 1.072721,
+            "snr": 18.266157319876655,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 22.7557193075629,
+          "duration": 0.9473833122722476,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav",
+            "source_time": 0,
+            "event_time": 22.7557193075629,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.436840285944724,
+            "time_stretch": 0.4243480415201224
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 24.569,
+          "duration": 0.423,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav",
+            "source_time": 0,
+            "event_time": 24.569,
+            "event_duration": 0.423,
+            "snr": 7.964277317289934,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 25.133,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 25.133,
+            "event_duration": 1.512,
+            "snr": 17.39050921768616,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 25.589,
+          "duration": 1.79,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/SCTA.wav",
+            "source_time": 0,
+            "event_time": 25.589,
+            "event_duration": 1.79,
+            "snr": -0.29090567431532577,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 25.597,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 25.597,
+            "event_duration": 2.548,
+            "snr": -8.914235407703988,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 28.25831047702301,
+          "duration": 5.326984275511224,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav",
+            "source_time": 0,
+            "event_time": 28.25831047702301,
+            "event_duration": 2.232562,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.3821784385466698,
+            "time_stretch": 2.3860409142103216
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 28.85,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 28.85,
+            "event_duration": 1.464,
+            "snr": 3.73695108934945,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 29.319,
+          "duration": 1.512,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav",
+            "source_time": 0,
+            "event_time": 29.319,
+            "event_duration": 1.512,
+            "snr": 5.129176995299272,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 29.643,
+          "duration": 3.076,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/GRCA.wav",
+            "source_time": 0,
+            "event_time": 29.643,
+            "event_duration": 3.076,
+            "snr": 12.310323559311527,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 32.652,
+          "duration": 1.613,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BWWA.wav",
+            "source_time": 0,
+            "event_time": 32.652,
+            "event_duration": 1.613,
+            "snr": -11.19535563290098,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 34.211,
+          "duration": 0.391,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav",
+            "source_time": 0,
+            "event_time": 34.211,
+            "event_duration": 0.391,
+            "snr": 13.197705170776391,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 36.434,
+          "duration": 0.61288,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav",
+            "source_time": 0,
+            "event_time": 36.434,
+            "event_duration": 0.61288,
+            "snr": 8.037171877423226,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 37.247658443477114,
+          "duration": 4.779642463991795,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/rain_fadein.wav",
+            "source_time": 0,
+            "event_time": 37.247658443477114,
+            "event_duration": 6,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -1.2267163298012747,
+            "time_stretch": 0.7966070773319658
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 37.51,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 37.51,
+            "event_duration": 1.464,
+            "snr": 9.660401390717567,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 39.398,
+          "duration": 2.548,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav",
+            "source_time": 0,
+            "event_time": 39.398,
+            "event_duration": 2.548,
+            "snr": 8.90568336017284,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 39.649,
+          "duration": 1.605,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BAWW.wav",
+            "source_time": 0,
+            "event_time": 39.649,
+            "event_duration": 1.605,
+            "snr": 7.685585586445786,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 40.965,
+          "duration": 0.391,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav",
+            "source_time": 0,
+            "event_time": 40.965,
+            "event_duration": 0.391,
+            "snr": -4.152179788223723,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 42.09,
+          "duration": 0.931973,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RWBL.wav",
+            "source_time": 0,
+            "event_time": 42.09,
+            "event_duration": 0.931973,
+            "snr": -8.942354207479468,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 42.584,
+          "duration": 1.605,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BAWW.wav",
+            "source_time": 0,
+            "event_time": 42.584,
+            "event_duration": 1.605,
+            "snr": 3.761409342513094,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 49.939,
+          "duration": 0.423,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav",
+            "source_time": 0,
+            "event_time": 49.939,
+            "event_duration": 0.423,
+            "snr": -7.838502551728426,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 50.378,
+          "duration": 0.61288,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav",
+            "source_time": 0,
+            "event_time": 50.378,
+            "event_duration": 0.61288,
+            "snr": -13.517544800715003,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 53.113,
+          "duration": 0.423,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav",
+            "source_time": 0,
+            "event_time": 53.113,
+            "event_duration": 0.423,
+            "snr": -5.094648243288292,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 54.06552566055345,
+          "duration": 0.07461915705733396,
+          "value": {
+            "label": "easy_junk",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/tap1.wav",
+            "source_time": 0,
+            "event_time": 54.06552566055345,
+            "event_duration": 0.063687,
+            "snr": 4.0,
+            "role": "foreground",
+            "pitch_shift": -0.14695163755894125,
+            "time_stretch": 1.1716544515730678
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 54.42,
+          "duration": 0.423,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav",
+            "source_time": 0,
+            "event_time": 54.42,
+            "event_duration": 0.423,
+            "snr": -11.377702556794597,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 58.536,
+          "duration": 1.464,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav",
+            "source_time": 0,
+            "event_time": 58.536,
+            "event_duration": 1.464,
+            "snr": -11.397621266428985,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 58.927279,
+          "duration": 1.072721,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/COYE.wav",
+            "source_time": 0,
+            "event_time": 58.927279,
+            "event_duration": 1.072721,
+            "snr": 6.939559238893313,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 59.609,
+          "duration": 0.391,
+          "value": {
+            "label": "PNRE_birdcalls",
+            "source_file": "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav",
+            "source_time": 0,
+            "event_time": 59.609,
+            "event_duration": 0.391,
+            "snr": 4.939599872183148,
+            "role": "foreground",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 60,
+          "fg_path": "/Volumes/lacie/projects1/Trieste-Devlin/foreground",
+          "bg_path": "/Volumes/lacie/projects1/Trieste-Devlin/background",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                3.743
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                28.85
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                37.51
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/EATO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                59.189
+              ],
+              [
+                "const",
+                1.464
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                1.632
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                25.597
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/OVEN.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                39.398
+              ],
+              [
+                "const",
+                2.548
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/NOCA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                4.169
+              ],
+              [
+                "const",
+                1.066
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                2.582
+              ],
+              [
+                "const",
+                0.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                18.15
+              ],
+              [
+                "const",
+                0.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                36.434
+              ],
+              [
+                "const",
+                0.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMCR.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                50.378
+              ],
+              [
+                "const",
+                0.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                3.311
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                11.741
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                25.133
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/WOTH.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                29.319
+              ],
+              [
+                "const",
+                1.512
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                24.569
+              ],
+              [
+                "const",
+                0.423
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                49.939
+              ],
+              [
+                "const",
+                0.423
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                53.113
+              ],
+              [
+                "const",
+                0.423
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/REVI.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                54.42
+              ],
+              [
+                "const",
+                0.423
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                34.211
+              ],
+              [
+                "const",
+                0.391
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                40.965
+              ],
+              [
+                "const",
+                0.391
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RBWO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                59.747
+              ],
+              [
+                "const",
+                0.391
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/RWBL.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                42.09
+              ],
+              [
+                "const",
+                0.932
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/COYE.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                20.226
+              ],
+              [
+                "const",
+                1.073
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/COYE.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                59.227
+              ],
+              [
+                "const",
+                1.073
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/HOWA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                12.423
+              ],
+              [
+                "const",
+                1.002
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/SCTA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                25.589
+              ],
+              [
+                "const",
+                1.79
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BWWA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                32.652
+              ],
+              [
+                "const",
+                1.613
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMRO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                4.179
+              ],
+              [
+                "const",
+                0.86
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/AMRO.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                19.28
+              ],
+              [
+                "const",
+                0.86
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/GRCA.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                29.643
+              ],
+              [
+                "const",
+                3.076
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BAWW.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                39.649
+              ],
+              [
+                "const",
+                1.605
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "PNRE_birdcalls"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/PNRE_birdcalls/BAWW.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                42.584
+              ],
+              [
+                "const",
+                1.605
+              ],
+              [
+                "uniform",
+                -15,
+                20
+              ],
+              "foreground",
+              null,
+              null
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/rain_fadein.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/tap1.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/rain_fadein.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind2.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ],
+            [
+              [
+                "const",
+                "easy_junk"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/foreground/easy_junk/wind.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "uniform",
+                0,
+                59.75
+              ],
+              [
+                "const",
+                6
+              ],
+              [
+                "normal",
+                4,
+                0
+              ],
+              "foreground",
+              [
+                "normal",
+                -0.5,
+                0.5
+              ],
+              [
+                "uniform",
+                0.2,
+                3
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "const",
+                "noisy_clean"
+              ],
+              [
+                "const",
+                "/Volumes/lacie/projects1/Trieste-Devlin/background/noisy_clean/windy_60.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                60
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "PNRE_birdcalls",
+            "easy_junk",
+            "junk"
+          ],
+          "bg_labels": [
+            "clean",
+            "dirty",
+            "noisy_clean",
+            "nope"
+          ],
+          "protected_labels": [],
+          "sr": 44100,
+          "ref_db": -30,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 42,
+          "polyphony_max": 5,
+          "polyphony_gini": 0.4963084799723363,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": 0,
+          "scaper_version": "1.0.3"
+        }
+      },
+      "time": 0,
+      "duration": 60
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 60,
+    "identifiers": {},
+    "jams_version": "0.3.2"
+  },
+  "sandbox": {}
+}
