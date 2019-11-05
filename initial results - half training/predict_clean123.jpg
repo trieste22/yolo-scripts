@@ -1,0 +1,29 @@
+[
+{
+ "frame_id":1, 
+ "filename":"clean/JPEGImages/scape123.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"OVEN.wav", "relative_coordinates":{"center_x":0.048499, "center_y":0.589922, "width":0.031622, "height":0.639596}, "confidence":0.920811}, 
+  {"class_id":14, "name":"BWWA.wav", "relative_coordinates":{"center_x":0.048499, "center_y":0.589922, "width":0.031622, "height":0.639596}, "confidence":0.596903}, 
+  {"class_id":20, "name":"GRCA.wav", "relative_coordinates":{"center_x":0.048499, "center_y":0.589922, "width":0.031622, "height":0.639596}, "confidence":0.480105}, 
+  {"class_id":19, "name":"ACFL.wav", "relative_coordinates":{"center_x":0.235974, "center_y":0.579162, "width":0.005654, "height":0.731629}, "confidence":0.400439}, 
+  {"class_id":16, "name":"SWSP.wav", "relative_coordinates":{"center_x":0.719300, "center_y":0.414143, "width":0.028328, "height":0.306298}, "confidence":0.991375}, 
+  {"class_id":0, "name":"EATO.wav", "relative_coordinates":{"center_x":0.228750, "center_y":0.575052, "width":0.025307, "height":0.726504}, "confidence":0.928504}, 
+  {"class_id":13, "name":"SCTA.wav", "relative_coordinates":{"center_x":0.228750, "center_y":0.575052, "width":0.025307, "height":0.726504}, "confidence":0.470428}, 
+  {"class_id":12, "name":"HOWA.wav", "relative_coordinates":{"center_x":0.449892, "center_y":0.603583, "width":0.008489, "height":0.674982}, "confidence":0.951183}, 
+  {"class_id":12, "name":"HOWA.wav", "relative_coordinates":{"center_x":0.581359, "center_y":0.600482, "width":0.009387, "height":0.562606}, "confidence":0.594693}, 
+  {"class_id":11, "name":"COYE.wav", "relative_coordinates":{"center_x":0.586036, "center_y":0.610944, "width":0.009003, "height":0.727768}, "confidence":0.406015}, 
+  {"class_id":10, "name":"RWBL.wav", "relative_coordinates":{"center_x":0.140724, "center_y":0.537303, "width":0.014807, "height":0.665414}, "confidence":0.731481}, 
+  {"class_id":9, "name":"RBWO.wav", "relative_coordinates":{"center_x":0.637624, "center_y":0.525518, "width":0.001488, "height":1.013884}, "confidence":0.315763}, 
+  {"class_id":5, "name":"BTNW.wav", "relative_coordinates":{"center_x":0.185451, "center_y":0.633358, "width":0.020119, "height":0.618173}, "confidence":0.993409}, 
+  {"class_id":5, "name":"BTNW.wav", "relative_coordinates":{"center_x":0.048016, "center_y":0.631726, "width":0.026700, "height":0.627984}, "confidence":0.622753}, 
+  {"class_id":4, "name":"WOTH.wav", "relative_coordinates":{"center_x":0.735264, "center_y":0.549046, "width":0.019332, "height":0.684331}, "confidence":0.995723}, 
+  {"class_id":4, "name":"WOTH.wav", "relative_coordinates":{"center_x":0.032051, "center_y":0.552680, "width":0.021350, "height":0.789009}, "confidence":0.789078}, 
+  {"class_id":3, "name":"AMCR.wav", "relative_coordinates":{"center_x":0.247593, "center_y":0.417235, "width":0.003089, "height":0.694880}, "confidence":0.337618}, 
+  {"class_id":3, "name":"AMCR.wav", "relative_coordinates":{"center_x":0.755810, "center_y":0.413639, "width":0.003168, "height":0.695879}, "confidence":0.293671}, 
+  {"class_id":2, "name":"NOCA.wav", "relative_coordinates":{"center_x":0.146804, "center_y":0.537381, "width":0.001802, "height":0.766537}, "confidence":0.260056}, 
+  {"class_id":1, "name":"OVEN.wav", "relative_coordinates":{"center_x":0.517208, "center_y":0.606942, "width":0.032261, "height":0.635699}, "confidence":0.973171}, 
+  {"class_id":0, "name":"EATO.wav", "relative_coordinates":{"center_x":0.822206, "center_y":0.548311, "width":0.018036, "height":0.722048}, "confidence":0.950249}
+ ] 
+}
+]
