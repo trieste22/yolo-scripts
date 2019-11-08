@@ -1,1 +1,7 @@
-This folder contains some results of models (as described in training-history.md) asked to predict on scapes created to train other models. For example, ej-predicts-fullmin/ contains results where the 'easyjunk' model was asked to predict a file scapered to train the 'fullmin' model.
+This repo contains some results of models (as described in training-history.md) asked to predict on scapes created to train other models.
+
+For example, ej-predicts-fullmin/ contains results where the 'easyjunk' (ej) model was asked to predict a file scapered to train the 'fullmin' model.
+
+Models of a full minute, with lots of types of species and junk items all scapered together were trained first, and then we simplified down to shorter and less complicated scapes to see how the training would go, and if a model trained on complicated soundscapes would do okay at simple ones and vice versa.
+
+Sorry for organizing these files so poorly! The intent was to move all the results folders into the YOLO-predicts folder, but something went weird with my repo and I didn't have time to fix it..
